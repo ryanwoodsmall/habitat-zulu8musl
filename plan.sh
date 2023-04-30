@@ -1,13 +1,13 @@
 pkg_origin="ryanwoodsmall"
 pkg_name="zulu8musl"
 pkg_maintainer="ryanwoodsmall <rwoodsmall@gmail.com>"
-ver1="8.68.0.21"
-ver2="8.0.362"
+ver1="8.70.0.23"
+ver2="8.0.372"
 pkg_version="${ver1}.${ver2}"
 pkg_dirname="zulu${ver1}-ca-jdk${ver2}-linux_musl_x64"
 pkg_filename="${pkg_dirname}.tar.gz"
 pkg_source="https://cdn.azul.com/zulu/bin/${pkg_filename}"
-pkg_shasum="cdcf6db607e3218889a45a0507f1439158b53f18921778dfc3be8dd9e6ade8c9"
+pkg_shasum="6316c35f570a81fcf6dbf7b00e172694e6745bba8ce6693c82c42a130cf1068c"
 pkg_license=( "GPL-2.0-only WITH Classpath-exception-2.0" )
 pkg_description=( 'Zulu is a build of the Open Java Development Kit (OpenJDK) on musl libc with long-term support from Azul' )
 pkg_upstream_url="https://www.azul.com/downloads/zulu-community/"
